@@ -6,7 +6,7 @@
     font-size: 60px;
 }
 
-.le_musee p {
+.le_musee .para {
     color: white;
     font-family: Rufina;
     font-style: normal;
@@ -39,7 +39,7 @@
 .lettrine{
     font-size: 350px;
     font-weight: 400;
-    font-family: "Chomsky";
+    font-family: 'Chomsky';
     position: absolute;
     color: rgba(255, 255, 255, 0.15);
 }
@@ -90,5 +90,5 @@
 }
 
 .bloc2 .lettrine{
-        text-align: right;
+    text-align: right;
 }
