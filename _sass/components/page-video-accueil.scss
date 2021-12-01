@@ -8,8 +8,12 @@
 }
 
 .video-bg video{
-   overflow: hidden;
-   background-size: contain;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: absolute;
+   top: 0;  
+   left: 0;
 }
 
 .video-bg .degrade{
@@ -17,18 +21,20 @@
     background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
     width: 100%;
     height: 100vh;
+    z-index: 2;
 }
 
-
 .texte-accueil{
-    position: absolute;
+    position: relative;
     display: block;
     margin-top: 350px;
     margin-left: 100px;
+    z-index: 3;
 }
 
 .titre-txt-accueil{
     font-weight: normal;
+    line-height: 0px;
 }
 
 .bouton{
@@ -40,6 +46,8 @@
     height: 50px;
     background-color: rgba(202, 172, 53, 0.16);
     position: relative;
+    margin-top: 50px;
+    color: white;
 }
 
 .texte-bouton{
@@ -51,8 +59,16 @@
 
 .trait-bouton{
     position: absolute;
-    margin-left: 75%;
+    margin-left: 72.5%;
     transform: translateY(50%);
     height: 25px;
     width: 1px;
+}
+
+.fleche-bouton{
+    width: 15%;
+    height: 15%;
+    margin-left: 80%;
+    position: absolute;
+    bottom: 42.5%;
 }
