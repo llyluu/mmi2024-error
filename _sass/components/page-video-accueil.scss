@@ -1,0 +1,58 @@
+.video-bg{
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background-position: center;
+    size: cover;  
+}
+
+.video-bg video{
+   overflow: hidden;
+   background-size: contain;
+}
+
+.video-bg .degrade{
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    width: 100%;
+    height: 100vh;
+}
+
+
+.texte-accueil{
+    position: absolute;
+    display: block;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+
+.titre-txt-accueil{
+    font-weight: normal;
+}
+
+.bouton{
+    outline-style: solid;
+    outline-color: rgb(202, 172, 53);
+    display: flex;
+    text-align: center;  
+    width: 250px;
+    height: 50px;
+    background-color: rgba(202, 172, 53, 0.16);
+    position: relative;
+}
+
+.texte-bouton{
+    margin-left: 10px;
+    position: absolute;
+    transform: translateY(-17.5%);
+
+}
+
+.trait-bouton{
+    position: absolute;
+    margin-left: 75%;
+    transform: translateY(50%);
+    height: 25px;
+    width: 1px;
+}
