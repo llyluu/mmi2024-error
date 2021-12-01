@@ -1,3 +1,44 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: normal;
+    line-height: 0px;
+    margin-top: 2%;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Rufina', serif;
+    font-size: 18px;
+    list-style-type: none;
+}
+
 .video-bg{
     justify-content: center;
     position: relative;
@@ -8,8 +49,12 @@
 }
 
 .video-bg video{
-   overflow: hidden;
-   background-size: contain;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: absolute;
+   top: 0;  
+   left: 0;
 }
 
 .video-bg .degrade{
@@ -17,29 +62,33 @@
     background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
     width: 100%;
     height: 100vh;
+    z-index: 2;
 }
 
-
 .texte-accueil{
-    position: absolute;
+    position: relative;
     display: block;
     margin-top: 350px;
     margin-left: 100px;
+    z-index: 3;
 }
 
 .titre-txt-accueil{
     font-weight: normal;
+    line-height: 0px;
 }
 
-.bouton{
+.bouton {
     outline-style: solid;
     outline-color: rgb(202, 172, 53);
     display: flex;
-    text-align: center;  
+    text-align: center;
     width: 250px;
     height: 50px;
     background-color: rgba(202, 172, 53, 0.16);
     position: relative;
+    margin-top: 50px;
+    color: white;
 }
 
 .texte-bouton{
@@ -51,8 +100,25 @@
 
 .trait-bouton{
     position: absolute;
-    margin-left: 75%;
+    margin-left: 72.5%;
     transform: translateY(50%);
     height: 25px;
     width: 1px;
+}
+
+.fleche-bouton{
+    width: 15%;
+    height: 15%;
+    margin-left: 80%;
+    position: absolute;
+    bottom: 42.5%;
+}
+
+.box-bas{
+    position: relative;
+    text-align: center;
+    z-index: 4;
+    top: 10%;
+    left: 0%;
+    
 }
