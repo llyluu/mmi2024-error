@@ -34,6 +34,12 @@
 
 .blocs{
     text-align: center;
+    width: 100%;
+}
+
+.blocs img{
+    width:35%;
+    height:35%;
 }
 
 .lettrine{
@@ -55,15 +61,14 @@
 }
 
 .bloc1 img{
-    margin-right: 10%;
-    size: 120%;
+    margin: auto;
     
 }
 
 .le-musee p{
     display: table;
     line-height: 200%;
-    width:30%;
+    width:400px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -86,7 +91,7 @@
 }
 
 .bloc2 img{
-    margin-left: 10%;
+    margin: auto;
 }
 
 .bloc2 .lettrine{
