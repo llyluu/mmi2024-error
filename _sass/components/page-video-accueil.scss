@@ -18,6 +18,12 @@ h2 {
     font-weight: bold;
 }
 
+h3{
+    font-weight: normal;
+    line-height: 0px;
+    margin-top: 2%;
+}
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -74,7 +80,7 @@ a {
 
 .bouton {
     outline-style: solid;
-    outline-color: rgba(202, 172, 53);
+    outline-color: rgb(202, 172, 53);
     display: flex;
     text-align: center;
     width: 250px;
@@ -106,4 +112,13 @@ a {
     margin-left: 80%;
     position: absolute;
     bottom: 42.5%;
+}
+
+.box-bas{
+    position: relative;
+    text-align: center;
+    z-index: 4;
+    top: 10%;
+    left: 0%;
+    
 }
