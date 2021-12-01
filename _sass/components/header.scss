@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% ;
+    font-family: Rufina;
+}
+
+header ul {
+    padding-left: 0;
+}
+.droite {
+    display: flex;
+    margin-right: 12%;
+}
+
+li {
+    margin: 20px;
+    list-style: none;
+}
+
+.gauche {
+    display: flex;
+    margin-left: 2%;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.handicape {
+    width: 20px;
+    height: 20px;
+}
+
+.galerie {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.fr {
+    margin-left: 35%;
+}
