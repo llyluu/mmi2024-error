@@ -14,3 +14,81 @@
     font-size: 18px;
     line-height: 230%;
 }
+
+.le-musee h2{
+    display: table;
+    font-family: Rufina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    margin-left: 110px;
+    margin-top: 110px;
+}
+
+.trait-titre{
+    position: relative;
+    left: 7.4%;
+    top: -50px;
+    width: 15%;
+}
+
+.blocs{
+    text-align: center;
+}
+
+.lettrine{
+    font-size: 350px;
+    font-weight: 400;
+    font-family: "Chomsky";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.bloc1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    text-align: left;
+    
+}
+
+.bloc1 img{
+    margin-right: 10%;
+}
+
+.bloc1 .lettrine{
+
+}
+
+.le-musee p{
+    display: table;
+    line-height: 200%;
+    width:75%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.trait-bloc{
+    position: relative;
+    margin-bottom: 10%;
+    width:50%;
+    height: 3px;
+}
+
+.bloc2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+}
+
+.bloc2 img{
+    margin-left: 10%;
+}
+
+.bloc2 .lettrine{
+        text-align: right;
+}
