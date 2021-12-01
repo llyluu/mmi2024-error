@@ -3,10 +3,16 @@
 @import "abstracts/variables";
 @import "base/common";
 
+@import "components/page-video-accueil";
 @import "components/header";
 @import "components/footer";
-@import "components/le_musee.scss";
+@import "components/le_musee";
 
 body{
+<<<<<<< HEAD
     background-color:white;
 }
+=======
+    background-color: black;
+}
+>>>>>>> 07da78e1b01160f5d630161a0258957872af0f6c
