@@ -51,17 +51,19 @@
     margin-top: 8%;
     margin-bottom: 10%;
     text-align: left;
+    flex-wrap: wrap;
 }
 
-.bloc1 .carousel{
+.bloc1 img{
     margin-right: 10%;
     size: 120%;
+    
 }
 
 .le-musee p{
     display: table;
     line-height: 200%;
-    width:75%;
+    width:30%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -79,6 +81,8 @@
     flex-direction: row-reverse;
     align-items: center;
     text-align: left;
+    flex-wrap: wrap;
+
 }
 
 .bloc2 img{
@@ -88,3 +92,4 @@
 .bloc2 .lettrine{
     text-align: right;
 }
+
