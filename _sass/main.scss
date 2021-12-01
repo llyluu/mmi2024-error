@@ -8,6 +8,17 @@
 @import "components/footer";
 @import "components/le_musee";
 
+@font-face {
+    font-family: 'Chomsky';
+    src:url('Chomsky.ttf.woff') format('woff'),
+        url('Chomsky.ttf.svg#Chomsky') format('svg'),
+        url('Chomsky.ttf.eot'),
+        url('Chomsky.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background-color:black;
+    color: white;
 }
