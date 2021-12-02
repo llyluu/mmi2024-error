@@ -1,11 +1,3 @@
-.le_musee h2 {
-    color: white;
-    font-family: Rufina;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-}
-
 .le_musee .para {
     color: white;
     font-family: Rufina;
@@ -13,23 +5,6 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 230%;
-}
-
-.le-musee h2{
-    display: table;
-    font-family: Rufina;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    margin-left: 110px;
-    margin-top: 110px;
-}
-
-.trait-titre{
-    position: relative;
-    left: 7.4%;
-    top: -50px;
-    width: 15%;
 }
 
 .blocs{
@@ -48,6 +23,7 @@
     font-family: 'Chomsky';
     position: absolute;
     color: rgba(255, 255, 255, 0.15);
+    user-select: none;
 }
 
 .bloc1{
@@ -65,7 +41,11 @@
     
 }
 
-.le-musee p{
+.bloc1 .lettrine{
+    left: 20%;
+}
+
+.le-musee .para{
     display: table;
     line-height: 200%;
     width:400px;
@@ -96,5 +76,6 @@
 
 .bloc2 .lettrine{
     text-align: right;
+    right: 20%;
 }
 
