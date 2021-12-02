@@ -1,6 +1,6 @@
 .atelier{
     display: grid;
-    ;
+    height: fit-content;
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: repeat(8, 12%);
     grid-column-gap: 1%;
