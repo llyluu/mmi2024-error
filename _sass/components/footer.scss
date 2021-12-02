@@ -108,4 +108,27 @@ a:hover{
 }
 .btn-primary:hover{
     background-color: black;
+    border-color: white;
+}
+
+.btn-primary:active{
+    color: white;
+    background-color: rgba(202, 172, 53, 0.50);
+    border-color: rgb(202, 172, 53); 
+    outline-color: white; 
+}
+
+.btn-primary:focus{
+    color: white;
+    background-color: rgba(202, 172, 53, 0.50);
+    border-color: rgb(202, 172, 53);  
+    outline-color: white; 
+    box-shadow: white;
+}
+
+.btn-primary:visited{
+    color: white;
+    background-color: rgba(202, 172, 53, 0.50);
+    border-color: rgb(202, 172, 53);
+    outline-color: white;    
 }
