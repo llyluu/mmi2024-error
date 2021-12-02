@@ -1,13 +1,38 @@
+.atelier{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(8, 12%);
+    grid-column-gap: 1%;
+    overflow: hidden;
+    background-position: center;
+}
+
 .atelier .bloc_info{
     background-color: rgb(24,24,24);
+    grid-column-start: 2;
+    grid-column-end: 6;
+    display: grid;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-right: 10%;
+    padding-left: 4%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1%;
+    grid-template-rows: 25% 25%;
+    grid-row-gap: 10%;
+    grid-row-start: 2;
+    grid-row-end: 8;
+    
 }
 
 .atelier h2{
+    margin:0;
     font-family: Rufina;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 44px;
+    grid-row-start: 1;
 }
 
 .atelier h3{
@@ -16,4 +41,31 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
+    grid-column-start: 3;
 }
+
+.bloc_info img{
+    width: 155px;
+    height: 155px;
+    grid-column-start: 5;
+}
+
+.bloc_info p{
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+
+.atelier .illustration{
+    z-index: -1;
+    grid-column-start: 5;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    object-fit: cover;
+    height: 85%;
+    width: 90%;
+    background-position: center;
+}
+
