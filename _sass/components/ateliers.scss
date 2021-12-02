@@ -9,7 +9,57 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 230%;
-    width: 710px;
-    height: 325px;
+    width: auto;
+    height: fit-content;
     margin-left: 8%;
+    margin-right: 40%;
+    margin-bottom: 150px;
+}
+
+.ateliers .trait-bloc{
+    
+    position: relative;
+    margin-top: 175px;
+    margin-bottom: 100px;
+    margin-left: 50%;
+    width:50%;
+    height: 3px;
+    transform: translateX(-50%);
+}
+
+.ateliers .atelier h3{
+    margin-left: 80%;
+}
+
+.flip{
+    transform: rotateY(180deg);
+
+    .block .bloc_info{
+        padding-left: 80%;
+    }
+
+    h2{
+        transform: rotateY(180deg);
+        display: table;
+    }
+
+    h3{
+        transform: rotateY(180deg);
+        grid-column-start: 4;
+        margin-right: 30px;
+        
+    }
+
+    p{
+        transform: rotateY(180deg);
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .ateliers .description{
+        margin-right: auto;
+        width: auto;
+    }
+    
 }
