@@ -2,9 +2,10 @@
     margin-left: 12%;
     display: grid;
     height: fit-content;
-    grid-template-columns: repeat(11, 8%);
+    grid-template-columns: repeat(9, 8%);
     grid-template-rows: repeat(8, 12%);
     grid-column-gap: 10px;
+    overflow: hidden;
 }
 
 .atelier .bloc_info{
@@ -62,7 +63,7 @@
 .atelier .illustration{
     z-index: -1;
     grid-column-start: 4;
-    grid-column-end: 13;
+    grid-column-end: 10;
     grid-row-start: 1;
     grid-row-end: 10;
     object-fit: cover;
