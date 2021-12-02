@@ -67,11 +67,13 @@
     align-items: center;
     text-align: left;
     flex-wrap: wrap;
+    margin-bottom: 10%;
 
 }
 
 .bloc2 img{
     margin: auto;
+    
 }
 
 .bloc2 .lettrine{
@@ -79,3 +81,9 @@
     right: 20%;
 }
 
+.trait-bloc2{
+    position: relative;
+    margin-bottom: 0;
+    width:50%;
+    height: 3px;
+}

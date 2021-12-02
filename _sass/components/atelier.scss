@@ -1,28 +1,29 @@
 .atelier{
+    margin-left: 12%;
     display: grid;
     height: fit-content;
-    grid-template-columns: repeat(11, 1fr);
+    grid-template-columns: repeat(9, 8%);
     grid-template-rows: repeat(8, 12%);
-    grid-column-gap: 1%;
+    grid-column-gap: 10px;
     overflow: hidden;
-    background-position: center;
 }
 
 .atelier .bloc_info{
     background-color: rgb(24,24,24);
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 6;
     display: grid;
-    padding-top: 8%;
+    padding-top: 50px;
     padding-bottom: 8%;
     padding-right: 10%;
     padding-left: 4%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 80px);
     grid-column-gap: 1%;
     grid-template-rows: 25% 25%;
     grid-row-gap: 10%;
     grid-row-start: 2;
-    grid-row-end: 10;
+    grid-row-end: 7;
+    width: 570px;
     
 }
 
@@ -49,6 +50,7 @@
     width: 155px;
     height: 155px;
     grid-column-start: 5;
+
 }
 
 .bloc_info p{
@@ -61,14 +63,17 @@
 .atelier .illustration{
     z-index: -1;
     grid-column-start: 5;
-    grid-column-end: 14;
+    grid-column-end: 11;
     grid-row-start: 1;
-    grid-row-end: 9;
+    grid-row-end: 10;
     object-fit: cover;
-    height: 85%;
-    width: 90%;
+    height: 400px;
+    max-width: 50vw;
     background-position: center;
     position: relative;
+    overflow: hidden;
+
+
 }
 
 .atelier .illustration img{
@@ -76,7 +81,20 @@
    height: 100%;
    object-fit: cover;
    position: absolute;
-   top: 0;  
-   left: 0;
+   
+}
+
+.ateliermoment .bouton-parent{
+    margin-left: 15%;
+    margin-top: -190px;
+}
+
+.bouton_atelierprin{
+    position: relative;
+    margin-top: -50px;
+    width:185px;
+    height: 50px;
+    background-color: black;
+    z-index: -1;
 }
 
