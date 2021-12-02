@@ -1,6 +1,21 @@
 .margin{
     margin-right: 1em;
 }
+.marginT{
+    margin-top: 10em;
+}
+
+.padT{
+ padding-top: 10em;
+}
+
+.padB{
+    padding-bottom: 10em;
+}
+
+.mText{
+    text-align: left;
+}
 
 .centerT{
     text-align: center;
@@ -30,4 +45,37 @@ footer {
         max-height: 50px;
         
     }
+}
+.left{
+    margin-left: 3em;
+}
+
+.nav-link{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+@media (max-width: 720px) 
+{ 
+    footer, a, ul, img, li{ 
+        text-align: center;
+        justify-content: center;
+    }
+    .mText{
+        text-align: center;
+    }
+    .mobile{
+        justify-content: center;
+    }
+    .left{
+        margin-left: 1em;
+    }
+    .mobileMargin{
+        margin-top: 3em;
+    }
+    
+
 }
