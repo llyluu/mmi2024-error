@@ -1,20 +1,23 @@
-<section class= "atelier">
-    <div class= "bloc_info">
-        <h2>{{include.titre_atelier}}</h2>
-        <h3>{{include.date_atelier}}</h3>
-        <p>{{include.description_atelier}}</p>
-        <img src={{include.sourcephoto_atelier}} alt="Photo prof atelier">
-    </div>
+<div class="atelier_parent">
+    <section class= "atelier">
+        <div class= "bloc_info">
+            <h2>{{include.titre_atelier}}</h2>
+            <h3>{{include.date_atelier}}</h3>
+            <p>{{include.description_atelier}}</p>
+            <img src={{include.sourcephoto_atelier}} alt="Photo prof atelier">
+        </div>
+        
+        <div class="illustration">
+            <img  src={{include.sourcephotofond_atelier}} alt="Photo atelier">
+        </div>
+        
     
-    <div class="illustration">
-        <img  src={{include.sourcephotofond_atelier}} alt="Photo atelier">
-    </div>
+    </section>
+    <div class="bouton-parent">
+        {% include button_principal.html text_button= "Participer" %}
+        <div class="bouton_atelierprin">
     
-
-</section>
-<div class="bouton-parent">
-    {% include button_principal.html text_button="Participer" %}
-    <div class="bouton_atelierprin">
-
+        </div>
     </div>
 </div>
+

@@ -80,7 +80,7 @@ a:hover{
     color:#ffffff;
 }
 
-@media (max-width: 720px) 
+@media (max-width: 375px) 
 { 
     footer, a, ul, img, li{ 
         text-align: center;
@@ -108,5 +108,32 @@ a:hover{
 }
 .btn-primary:hover{
     background-color: black;
+<<<<<<< HEAD
 }
 
+=======
+    border-color: white;
+}
+
+.btn-primary:active{
+    color: white;
+    background-color: rgba(202, 172, 53, 0.50);
+    border-color: rgb(202, 172, 53); 
+    outline-color: white; 
+}
+
+.btn-primary:focus{
+    color: white;
+    background-color: rgba(202, 172, 53, 0.50);
+    border-color: rgb(202, 172, 53);  
+    outline-color: white; 
+    box-shadow: white;
+}
+
+.btn-primary:visited{
+    color: white;
+    background-color: rgba(202, 172, 53, 0.50);
+    border-color: rgb(202, 172, 53);
+    outline-color: white;    
+}
+>>>>>>> 083272b66b950058bfb0b8954d86db2ce0176e03
