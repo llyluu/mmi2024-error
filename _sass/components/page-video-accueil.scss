@@ -67,7 +67,9 @@ a {
 
 .texte-accueil{
     position: relative;
-    display: block;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     margin-top: 350px;
     margin-left: 100px;
     z-index: 3;
@@ -81,37 +83,33 @@ a {
 .bouton {
     outline-style: solid;
     outline-color: rgb(202, 172, 53);
-    display: flex;
-    text-align: center;
-    width: 250px;
+    padding: 0 10px;
     height: 50px;
     background-color: rgba(202, 172, 53, 0.16);
     position: relative;
     margin-top: 50px;
     color: white;
+    align-items: center;
+    min-width: 118px;
 }
 
 .texte-bouton{
-    margin-left: 10px;
-    position: absolute;
-    transform: translateY(-17.5%);
-
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .trait-bouton{
-    position: absolute;
-    margin-left: 72.5%;
-    transform: translateY(50%);
+    margin-left: 30px;
+    vertical-align: middle;
     height: 25px;
     width: 1px;
 }
 
 .fleche-bouton{
-    width: 15%;
-    height: 15%;
-    margin-left: 80%;
-    position: absolute;
-    bottom: 42.5%;
+    width: 30px;
+    vertical-align: middle;
+    margin-left: 13px;
 }
 
 .box-bas{
@@ -119,6 +117,5 @@ a {
     text-align: center;
     z-index: 4;
     top: 10%;
-    left: 0%;
-    
+    left: 0%;   
 }
