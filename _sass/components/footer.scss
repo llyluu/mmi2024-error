@@ -48,6 +48,9 @@ footer {
         
     }
 }
+.left{
+    margin-left: 3em;
+}
 
 .nav-link{
     color: white;
@@ -60,4 +63,26 @@ a{
 
 a:hover{
     color:#ffffff;
+}
+
+@media (max-width: 720px) 
+{ 
+    footer, a, ul, img, li{ 
+        text-align: center;
+        justify-content: center;
+    }
+    .mText{
+        text-align: center;
+    }
+    .mobile{
+        justify-content: center;
+    }
+    .left{
+        margin-left: 1em;
+    }
+    .mobileMargin{
+        margin-top: 3em;
+    }
+    
+
 }
