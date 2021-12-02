@@ -62,8 +62,8 @@
 
 .atelier .illustration{
     z-index: -1;
-    grid-column-start: 4;
-    grid-column-end: 10;
+    grid-column-start: 5;
+    grid-column-end: 11;
     grid-row-start: 1;
     grid-row-end: 10;
     object-fit: cover;
@@ -87,5 +87,14 @@
 .ateliermoment .bouton-parent{
     margin-left: 15%;
     margin-top: -190px;
+}
+
+.bouton_atelierprin{
+    position: relative;
+    margin-top: -50px;
+    width:185px;
+    height: 50px;
+    background-color: black;
+    z-index: -1;
 }
 
