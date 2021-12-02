@@ -15,6 +15,9 @@
 
 .mText{
     text-align: left;
+    li {
+        margin-left: 0%;
+    }
 }
 
 .centerT{
@@ -27,6 +30,18 @@
 
 footer {
     background-color:#181818;
+    p{
+        letter-spacing: 0.265em;
+    }
+    a:hover{
+        
+    }
+}
+
+footer li {
+
+    margin: 20px;
+
 }
 
 .marginL{
@@ -78,4 +93,12 @@ a{
     }
     
 
+}
+.btn-primary{
+    color: white;
+    background-color: rgba(202, 172, 53, 0.50);
+    border-color: rgb(202, 172, 53);
+}
+.btn-primary:hover{
+    background-color: black;
 }
