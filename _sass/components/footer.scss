@@ -1,3 +1,5 @@
+
+
 .margin{
     margin-right: 1em;
 }
@@ -69,8 +71,13 @@ footer li {
     color: white;
 }
 
+
 a{
-    color: white;
+    color: aliceblue;
+}
+
+a:hover{
+    color:#ffffff;
 }
 
 @media (max-width: 720px) 
