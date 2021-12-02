@@ -24,6 +24,7 @@
     grid-row-start: 2;
     grid-row-end: 7;
     width: 570px;
+    display: inline-grid;
     
 }
 
@@ -35,6 +36,7 @@
     font-size: 36px;
     line-height: 44px;
     grid-row-start: 1;
+    display: table;
 }
 
 .atelier h3{
@@ -98,5 +100,9 @@
     z-index: -1;
 }
 
-
+@media screen and (max-width: 500px) {
+    .bloc_info img{
+        display: none;
+    }
+}
 
