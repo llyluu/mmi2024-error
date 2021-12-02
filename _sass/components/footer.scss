@@ -1,6 +1,21 @@
 .margin{
     margin-right: 1em;
 }
+.marginT{
+    margin-top: 10em;
+}
+
+.padT{
+ padding-top: 10em;
+}
+
+.padB{
+    padding-bottom: 10em;
+}
+
+.mText{
+    text-align: left;
+}
 
 .centerT{
     text-align: center;
@@ -17,8 +32,50 @@ footer {
 .marginL{
     margin-left: 5em;
 }
+.marginLogo{
+    margin-right: 3em;
+}
 
 .row {
     margin-top: 15%;
     margin-right: 0%;
+}
+.social{
+    img{
+        max-height: 50px;
+        
+    }
+}
+.left{
+    margin-left: 3em;
+}
+
+.nav-link{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+@media (max-width: 720px) 
+{ 
+    footer, a, ul, img, li{ 
+        text-align: center;
+        justify-content: center;
+    }
+    .mText{
+        text-align: center;
+    }
+    .mobile{
+        justify-content: center;
+    }
+    .left{
+        margin-left: 1em;
+    }
+    .mobileMargin{
+        margin-top: 3em;
+    }
+    
+
 }

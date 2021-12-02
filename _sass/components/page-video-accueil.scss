@@ -67,9 +67,6 @@ a {
 
 .texte-accueil{
     position: relative;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
     margin-top: 350px;
     margin-left: 100px;
     z-index: 3;
@@ -78,38 +75,6 @@ a {
 .titre-txt-accueil{
     font-weight: normal;
     line-height: 0px;
-}
-
-.bouton {
-    outline-style: solid;
-    outline-color: rgb(202, 172, 53);
-    padding: 0 10px;
-    height: 50px;
-    background-color: rgba(202, 172, 53, 0.16);
-    position: relative;
-    margin-top: 50px;
-    color: white;
-    align-items: center;
-    min-width: 118px;
-}
-
-.texte-bouton{
-    white-space: nowrap;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.trait-bouton{
-    margin-left: 30px;
-    vertical-align: middle;
-    height: 25px;
-    width: 1px;
-}
-
-.fleche-bouton{
-    width: 30px;
-    vertical-align: middle;
-    margin-left: 13px;
 }
 
 .box-bas{
