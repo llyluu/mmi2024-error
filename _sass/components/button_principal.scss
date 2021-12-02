@@ -1,3 +1,12 @@
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color:#ffffff;
+}
+
+
 .bouton-parent{
     position: relative;
     display: flex;
@@ -7,12 +16,19 @@
     z-index: 8;
 }
 
+.bouton:hover{
+    background-position: left;
+}
+
 .bouton {
     outline-style: solid;
     outline-color: rgb(202, 172, 53);
     padding: 0 10px;
     height: 50px;
-    background-color: rgba(202, 172, 53, 0.16);
+    background: rgba(202, 172, 53, 0.16);
+    background: linear-gradient(to left, rgba(202, 172, 53, 0.16) 50%, rgba(202, 172, 53, 0.50) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
     position: relative;
     margin-top: 50px;
     color: white;
