@@ -48,6 +48,7 @@
     font-family: 'Chomsky';
     position: absolute;
     color: rgba(255, 255, 255, 0.15);
+    user-select: none;
 }
 
 .bloc1{
@@ -65,7 +66,11 @@
     
 }
 
-.le-musee p{
+.bloc1 .lettrine{
+    left: 20%;
+}
+
+.le-musee .para{
     display: table;
     line-height: 200%;
     width:400px;
@@ -96,5 +101,6 @@
 
 .bloc2 .lettrine{
     text-align: right;
+    right: 20%;
 }
 
