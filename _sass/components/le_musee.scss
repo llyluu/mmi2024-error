@@ -18,7 +18,7 @@
 }
 
 .lettrine{
-    font-size: 300px;
+    font-size: 350px;
     font-weight: 400;
     font-family: 'Chomsky';
     position: absolute;
@@ -48,15 +48,14 @@
 .le-musee .para{
     display: table;
     line-height: 200%;
+    width:400px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-
 .trait-bloc{
     position: relative;
-    margin-top: 10%;
-    margin-left: 30%;
+    margin-bottom: 10%;
     width:50%;
     height: 3px;
 }
@@ -77,42 +76,16 @@
     
 }
 
-.row .lettrine{
+.bloc2 .lettrine{
     text-align: right;
     right: 20%;
-    margin-top: -290px;
 }
 
 .trait-bloc2{
     position: relative;
-    margin-top: 0%;
-    margin-left: 30%;
+    margin-bottom: 0;
     width:50%;
     height: 3px;
 }
 
-.carousel-item {
-    img {
-        height: 486px;
-        width: 100%;
-        object-fit: cover;
-    }
-}
 
-.row{
-    margin-bottom: 150px;
-}
-
-.para{
-    padding-top: 5em;
-}
-
-@media screen and (max-width:375px) {
-    .para{
-        padding: none;
-    }
-}
-
-.carousel-control-prev{
-     rgb(202, 172, 53);
-}
