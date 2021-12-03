@@ -24,6 +24,7 @@
     position: absolute;
     color: rgba(255, 255, 255, 0.15);
     user-select: none;
+    margin-top: 25%;
 }
 
 .bloc1{
@@ -61,10 +62,9 @@
     height: 3px;
 }
 
-.row .lettrine{
+.lettrine{
     text-align: right;
-    right: 20%;
-    margin-top: -290px;
+    right: 25%;
 }
 
 .bloc2{
@@ -106,9 +106,6 @@
     }
 }
 
-.row{
-    margin-bottom: 150px;
-}
 
 .para{
     padding-top: 5em;
@@ -131,4 +128,8 @@
             object-fit: cover;
         }
     }
+}
+
+.trait-bloc2{
+    margin-top:150px;
 }
