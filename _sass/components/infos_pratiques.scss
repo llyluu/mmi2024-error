@@ -9,7 +9,8 @@
         display: flex;
 
         p{
-            padding: 70px;
+            padding-right: 2vw;
+            padding-left: 2vw;
             padding-top: 30px;
             padding-bottom: 30px;
             margin: 0;
@@ -18,16 +19,83 @@
         .box{
             width: fit-content;
         }
+
+     
+
+
+
     }
 
     .contenu{
         p{
-            margin-left: 70px;
+            
             width: 100%;
         }
 
         .box{
-            width: 50%;
+            padding: 1px;
+            width: 25%;
+            min-width: 280px;
+            height: 240px;
+            margin-top: 5px;
+
+            .Horaires{
+                display: flex;
+                flex-wrap: wrap;
+                width: 230px;
+                margin-left: 10%;
+                margin-top: 15px;
+                
+                .heures{
+                    font-size: 26px;
+                    text-align: center;
+                    margin-right: 2%;
+                    width:217px
+                }
+
+
+                .droite{
+                    margin-right: 0;
+                    
+                }
+                
+
+                .fleche-blanche{
+                    position: relative;
+                    height: 20px;
+                    width: 100px;
+                    top: 4px;
+                }
+            }
+        }
+        
+
+        #Horaires{
+            display: none;
+            &:target{
+                display: block;
+                #trf{
+                    display: none;
+                }
+                
+            }
+        }
+
+        #trf{
+            display: none;
+        
+
+            img{
+                width: 600px;
+                height: 340px;
+
+            }
+            &:target{
+                display: block;
+                #Horaires{
+                    display: none;
+                }
+            }
         }
     }
 }
