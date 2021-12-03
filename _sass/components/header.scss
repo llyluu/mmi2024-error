@@ -60,21 +60,7 @@ header li {
   margin-left: 35%;
 }
 
-.img {
-  display: none;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  object-fit: cover;
-}
-@media (max-width: 768px) {
-  .video {
-    display: none;
-  }
-  .img {
-    display: block;
-  }
-}
+
 
 .menu{
     display: none;
