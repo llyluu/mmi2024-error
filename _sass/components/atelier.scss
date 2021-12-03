@@ -100,9 +100,15 @@
     z-index: -1;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 610px) {
     .bloc_info img{
         display: none;
     }
+}
+
+.atelier .lettrine{
+    margin-top: 150px;
+    margin-left: 290px;
+    z-index: -1;
 }
 

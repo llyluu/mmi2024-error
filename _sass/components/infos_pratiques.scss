@@ -1,0 +1,33 @@
+.infos_pratiques{
+    margin-left: 10%;
+
+    .box{
+        background-color: rgb(18,18,18);
+    }
+    
+    .boutons_infos{
+        display: flex;
+
+        p{
+            padding: 70px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin: 0;
+        }
+        
+        .box{
+            width: fit-content;
+        }
+    }
+
+    .contenu{
+        p{
+            margin-left: 70px;
+            width: 100%;
+        }
+
+        .box{
+            width: 50%;
+        }
+    }
+}
