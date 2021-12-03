@@ -57,9 +57,10 @@ header li {
 }
 
 .fr {
-  margin-left: 35%;
-}
-
+    margin-left: 1%;
+    justify-self: start;
+    align-items: start;
+ }
 .img {
   display: none;
   position: absolute;
@@ -80,38 +81,38 @@ header li {
     display: none;
 }
 
-#menu ul {
+#menuport ul {
     margin:0;
     padding:0;
     list-style-type:none;
     text-align:center;
     }
-   #menu li {
+   #menuport li {
     float:left;
     margin:auto;
     padding:0;
     background-color:black;
     }
-   #menu li a {
+   #menuport li a {
     display:block;
     width:100px;
     color:white;
     text-decoration:none;
     padding:5px;
     }
-   #menu li a:hover {
+   #menuport li a:hover {
     color:#FFD700;
     }
-    #menu ul li ul {
+    #menuport ul li ul {
         display:none;
         }
-    #menu ul li:hover ul {
+    #menuport ul li:hover ul {
         display:block;
     }
-    #menu li:hover ul li {
+    #menuport li:hover ul li {
         float:none;
     }
-    #menu li ul {
+    #menuport li ul {
         position:absolute;
         }
  
@@ -137,4 +138,5 @@ header li {
       height: 22px;
       margin-top: 2.5em;
   }
+
 }

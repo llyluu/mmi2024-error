@@ -85,3 +85,19 @@ a {
     top: 10%;
     left: 0%;   
 }
+
+.img {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+  }
+  @media (max-width: 768px) {
+    .video {
+      display: none;
+    }
+    .img {
+      display: block;
+    }
+  }
