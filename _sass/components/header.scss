@@ -140,7 +140,6 @@ header li {
 
 @media screen and (max-width: 375px) 
 { 
-    
   .droite{
       display: none;
   }
@@ -165,10 +164,26 @@ header li {
   }
   .boost{
     display: block;
-    background-color: white;
+    background-color: none;
+    position: fixed;
     padding: 0%;
+    z-index: 11;
   }
   .container-fluid{
     margin: 0%;
   }
+  .button{
+    color: red;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: white;
+}
+.navbar-nav{
+  flex-direction: row;
+  background-color: white;
+}
+  .menuPo{
+    padding-top: 3px;
+  }
+
 }
