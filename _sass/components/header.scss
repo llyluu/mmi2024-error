@@ -91,8 +91,26 @@ header li {
     float:left;
     margin:auto;
     padding:0;
-    background-color:black;
+  
     }
+.hovermenu {
+      background-color: black;
+      padding: 5em;
+      border: white;
+      border: solid;
+      border-width: 1px;
+
+}
+
+.gauche{
+  justify-content: center;
+}
+
+.boost {
+  display: none;
+}
+
+
    #menuport li a {
     display:block;
     width:100px;
@@ -116,6 +134,10 @@ header li {
         position:absolute;
         }
  
+.AtelierMenu{
+  margin-top: 0.9em;
+}
+
 @media screen and (max-width: 375px) 
 { 
     
@@ -130,13 +152,23 @@ header li {
       width: 50%;
       margin-top: 1.5em;
   }
+  .logo{
+    display: none;
+  }
   .menu{
-      display: block;
+      display: none;
       margin-left: 1.5em;
       margin-top: 0.5em;
       width: 38px;
       height: 22px;
       margin-top: 2.5em;
   }
-
+  .boost{
+    display: block;
+    background-color: white;
+    padding: 0%;
+  }
+  .container-fluid{
+    margin: 0%;
+  }
 }

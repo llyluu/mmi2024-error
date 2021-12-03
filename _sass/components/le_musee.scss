@@ -89,3 +89,13 @@
 }
 
 
+.carousel {
+    max-width: 100%;
+    .carousel-item {
+        img {
+            width: 100%;
+            height: 485px;
+            object-fit: cover;
+        }
+    }
+}
