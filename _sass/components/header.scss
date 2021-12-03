@@ -68,7 +68,7 @@ header li {
   width: 100%;
   object-fit: cover;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .video {
     display: none;
   }
@@ -91,8 +91,26 @@ header li {
     float:left;
     margin:auto;
     padding:0;
-    background-color:black;
+  
     }
+.hovermenu {
+      background-color: black;
+      padding: 5em;
+      border: white;
+      border: solid;
+      border-width: 1px;
+
+}
+
+.gauche{
+  justify-content: center;
+}
+
+.boost {
+  display: none;
+}
+
+
    #menuport li a {
     display:block;
     width:100px;
@@ -116,9 +134,12 @@ header li {
         position:absolute;
         }
  
-@media screen and (max-width: 375px) 
+.AtelierMenu{
+  margin-top: 0.9em;
+}
+
+@media screen and (max-width: 1000px) 
 { 
-    
   .droite{
       display: none;
   }
@@ -130,13 +151,39 @@ header li {
       width: 50%;
       margin-top: 1.5em;
   }
+  .logo{
+    display: none;
+  }
   .menu{
-      display: block;
+      display: none;
       margin-left: 1.5em;
       margin-top: 0.5em;
       width: 38px;
       height: 22px;
       margin-top: 2.5em;
+  }
+  .boost{
+    display: block;
+    background-color: none;
+    position: fixed;
+    padding: 0%;
+    z-index: 11;
+  }
+  .container-fluid{
+    margin: 0%;
+  }
+  .button{
+    color: red;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: white;
+}
+.navbar-nav{
+  flex-direction: row;
+  background-color: white;
+}
+  .menuPo{
+    padding-top: 3px;
   }
 
 }

@@ -1,29 +1,68 @@
-<header class="linear-gradient">
+<header class="linear-gradient container-fluid">
     <img src="/assets/img/menu.svg" alt="menu" class="menu">
-    <div id="menuport">
-    <ul class="gauche" class="soulignement dropdown">
-        <li class="gaucheP " id="menu"> 
-            <a href="https://www.google.fr"> 
-                <img src="assets/img/handicapé 1.png" alt="handicapé" class="handicape">
-            </a>
-        <ul>
-            <li><a href="#">Sous-item 1</a></li>
-        </ul>
-        <li class="fr gaucheP"> <a href="https://www.google.fr">FR</a>
-            <ul>
-                <li><a href="#">Sous-item 1</a></li>
+
+    <nav class="navbar navbar-expand-lg navbar-light boost">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="/assets/img/menu.svg" alt="" class="menuPo"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Link</a>
+              </li>
             </ul>
-        
-        
-        </li>
-    </div>
-        </li>
-    </ul>
+          </div>
+        </div>
+      </nav>
+                <div id="menuport" class="menucenter">
+                    <ul class="gauche" class="soulignement dropdown">
+                        <li class="gaucheP " id="menu"> 
+                            <a href="https://www.google.fr"> 
+                                <img src="assets/img/handicapé 1.png" alt="handicapé" class="handicape">
+                            </a>
+                        <ul>
+                            <li><a href="#" class="hovermenu">Visuel</a></li>
+                        </ul>
+                        <li class="fr gaucheP"> <a href="https://www.google.fr">FR</a>
+                    <ul>
+                            <li><a href="#" class="hovermenu">EN</a></li>
+                    </ul>
+                        </li>
+                </div>
+                    </li>
+                    </ul>
     <a href="index">
         <img src="assets/img/LogoImprPR2 1.png" alt="Logo-imprimerie" class="logo" >
     </a>
+        </li>
+        </ul>
     <ul class="droite" class="soulignement">
-        <li> <a href="ateliers">Atelier</a></li>
+        <div id="menuport">
+            <ul class="gauche" class="soulignement dropdown">
+                <li class="fr gaucheP"> <a href="https://www.google.fr" class="AtelierMenu">Atelier</a>
+            <ul>
+                    <li><a href="#" class="hovermenu">Adultes</a></li>
+                    <li><a href="#" class="hovermenu">Enfants</a></li>
+            </ul>
+                </li>
+        </div>
         <li class="galerie"> <a href="galerie">Galerie </a></li>
         <li class="informations"> <a href="https://www.google.fr">Informations</a></li>
     </ul>
