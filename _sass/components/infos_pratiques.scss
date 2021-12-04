@@ -1,6 +1,5 @@
 .infos_pratiques{
     margin-left: 10%;
-
     .box{
         background-color: rgb(18,18,18);
     }
@@ -17,84 +16,206 @@
         }
         
         .box{
+
             width: fit-content;
         }
-
-     
-
-
-
     }
 
     .contenu{
+
         p{
-            
             width: 100%;
         }
 
         .box{
-            padding: 1px;
-            width: 25%;
-            min-width: 280px;
+            width: fit-content;
             height: 240px;
             margin-top: 5px;
 
             .Horaires{
-                display: flex;
-                flex-wrap: wrap;
-                width: 230px;
                 margin-left: 10%;
-                margin-top: 15px;
+                padding-top: 15px;
+
+
+                .top{
+                    height: fit-content;
+                    margin-top: 20px;
+                    min-width: 280px;
+                    width: 30vw;
+
+                    .heures{
+                        display: flex;
+                        flex-wrap: wrap;
+                        font-size: 26px;
+                        text-align: center;
+                        margin-right: 2%;
+                        width:240px;
+    
+                        .heure1{
+                            width: min-content;
+                            margin: 0;
+                            margin-right: 15px;
+                        }
+    
+                        .heure2{
+                            width: min-content;
+                            margin: 0;
+                            margin-left: 15px;
+                        }
+
+                        .fleche-blanche{
+                            position: relative;
+                            height: 20px;
+                            width: 100px;
+                            top: 4px;
+                        }
+                    }
+                }
                 
-                .heures{
-                    font-size: 26px;
-                    text-align: center;
-                    margin-right: 2%;
-                    width:217px
+                p{
+                    margin:0;
+                    margin-top: 7px;
                 }
 
+                .white_line{
+                   justify-self: flex-end;
+                   margin-right: 100px;
+                }
+            }
 
-                .droite{
-                    margin-right: 0;
+           .Tarifs{
+                text-align: center;
+
+                .tableau{
+                    overflow:hidden;
+                    display: grid;
+                    grid-template-columns: repeat(4, 6vw);
+                    grid-template-rows: 75px, 10px, 75px, 10px, 75px;
+                    margin-right: 75px;
+                    margin-left: 25px;
+                    :nth-child(1){
+                        grid-column: 1;
+                        grid-row: 1;
+                    }
+    
+                    :nth-child(2){
+                        grid-column: 3;
+                        grid-row: 1;
+                    }
+    
+                    :nth-child(4){
+                        grid-column: 1;
+                        grid-row: 3;
+                    }
+    
+                    :nth-child(5){
+                        grid-column: 3;
+                        grid-row: 3;
+                    }
+    
+                    :nth-child(7){
+                        grid-column: 1;
+                        grid-row: 5;
+                    }
+    
+                    :nth-child(8){
+                        grid-column: 3;
+                        grid-row: 5;
+                    }
                     
+                   .ligne1{
+                        grid-row: 2;
+                   }
+    
+                   .ligne2{
+                        
+                        grid-row: 4;
+                   }
+    
+                   p{
+                       margin: 30%;
+                   }
                 }
-                
 
-                .fleche-blanche{
-                    position: relative;
-                    height: 20px;
-                    width: 100px;
-                    top: 4px;
+                .gratuité{
+                    text-align: left;
+                    ul{
+                        text-indent: 10px;
+                        list-style: circle;
+                        margin-right: 25px;
+
+                        li{
+                            margin-bottom: 7px;
+                        }
+                    }
                 }
+            }
+
+            .Accès{
+                padding-left: 10%;
+                padding-top: 5px;
+                flex-wrap: wrap;
+                width: 40vw;
+                
+                p{
+                    width: 325px;
+
+                }
+
+                .map{
+                    position: relative;
+                    border: solid;
+                    border-color: #caac35;
+                    width: fit-content;
+                    margin-top: 15px;
+                }
+
+                
             }
         }
         
 
         #Horaires{
             display: none;
+            
             &:target{
-                display: block;
-                #trf{
+                display: flex;
+                #Tarifs{
+                    display: none;
+                }
+                #Accès{
                     display: none;
                 }
                 
             }
         }
 
-        #trf{
+        #Tarifs{
             display: none;
-        
 
-            img{
-                width: 600px;
-                height: 340px;
-
-            }
             &:target{
-                display: block;
+                display: flex;
+                flex-wrap: wrap;
                 #Horaires{
                     display: none;
                 }
+                #Accès{
+                    display: none;
+                }
+            }
+        }
+
+        #Accès{
+            display: none;
+
+            &:target{
+                display: flex;
+                #Horaires{
+                    display: none;
+                }
+                #Tarifs{
+                    display: none;
+                }                
             }
         }
     }
