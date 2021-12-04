@@ -19,3 +19,17 @@
     width: 15%;
 }
 
+@media screen and(max-width:1000px){
+    .trait-titre{
+        position: relative;
+        left: 7.5%;
+        top: -50px;
+        width: 85%;
+    }
+    .titre_ h2 {
+      text-align: center;
+      margin-left: 100px;
+      margin-top: 37px;
+    }
+    
+}
