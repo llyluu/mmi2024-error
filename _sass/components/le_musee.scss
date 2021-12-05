@@ -12,10 +12,6 @@
     width: 100%;
 }
 
-.blocs img{
-    width:35%;
-    height:35%;
-}
 
 .lettrine{
     font-size: 300px;
@@ -35,11 +31,6 @@
     margin-bottom: 10%;
     text-align: left;
     flex-wrap: wrap;
-}
-
-.bloc1 img{
-    margin: auto;
-    
 }
 
 .bloc1 .lettrine{
@@ -65,6 +56,7 @@
 .le_musee .lettrine{
     text-align: right;
     right: 25%;
+    
 }
 
 .bloc2{
