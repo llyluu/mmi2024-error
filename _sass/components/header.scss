@@ -1,211 +1,165 @@
 header {
   position: fixed;
-  z-index: 15;
-  display: flex;
-  justify-content: space-between;
-  padding: 2%;
-  font-family: Rufina;
   width: 100%;
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
-  width: 100%;
-  
-}
-
-header ul {
-  padding-left: 0;
-}
-
-header a {
-  color: aliceblue;
-  transition: color 0.25s ease;
+  height: 15vh;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  color: #fff;
+  padding: 0 2rem;
   z-index: 20;
 }
 
-header a:hover {
-  color: #caac35;
+a{
+  font-size: 18px;
 }
 
-.droite {
-  display: flex;
-  margin-right: 12%;
-}
-
-header li {
-  margin: 20px;
-  list-style: none;
-}
-
-.gauche {
-  display: flex;
-  margin-left: 2%;
-}
-
-.logo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-63%);
-  width: 17%;
-  margin-left: 30px;
-}
-
-.handicape {
-  width: 20px;
-  height: 20px;
-}
-
-.galerie {
-  margin-right: 20%;
-  margin-left: 20%;
-}
-
-.fr {
-    margin-left: 1%;
-    justify-self: start;
-    align-items: start;
- }
-.img {
-  display: none;
-  position: absolute;
-  top: 0;
+nav{
   width: 100%;
-  object-fit: cover;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-@media (max-width: 1000px) {
-  .video {
-    display: none;
-  }
-  .img {
-    display: block;
+
+.logo{
+  display: flex;
+  width: 40%;
+  img{
+    margin-left: 192px;
   }
 }
 
 .menu{
-    display: none;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 360px;
+}
+
+.access{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-left: 10px;
+  a{
+    margin-left: 50px;
+  }
+}
+
+
+.toggle {
+  display: none;
+}
+
+menu{
+  display: none;
 }
 
 #menuport ul {
-    margin:0;
-    padding:0;
-    list-style-type:none;
-    text-align:center;
-    }
-   #menuport li {
-    float:left;
-    margin:auto;
-    padding:0;
-  
-    }
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  text-align:center;
+  }
+ #menuport li {
+  float:left;
+  margin:auto;
+  padding:0;
+
+  }
 .hovermenu {
-      background-color: black;
-      padding: 5em;
-      border: white;
-      border: solid;
-      border-width: 1px;
+    background-color: black;
+    padding: 5em;
+    border: white;
+    border: solid;
+    border-width: 1px;
 
 }
 
 .gauche{
-  justify-content: center;
+justify-content: center;
 }
 
 .boost {
+display: none;
+}
+
+
+ #menuport li a {
+  display:block;
+  width:100px;
+  color:white;
+  text-decoration:none;
+  padding:5px;
+  }
+ #menuport li a:hover {
+  color:#FFD700;
+  }
+  #menuport ul li ul {
+      display:none;
+      }
+  #menuport ul li:hover ul {
+      display:block;
+  }
+  #menuport li:hover ul li {
+      float:none;
+  }
+  #menuport li ul {
+      position:absolute;
+      }
+
+@media all and (max-width: 991px) {
+
+  header {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  }
+
+
+  .toggle {
+      display: flex;
+      font-size: 2rem;
+      cursor: pointer;
+      z-index: 20;
+      .fermer {
+        display: none;
+      }
+  }
+  
+  .open{
+    .fermer{
+      display: block;
+    }
+    .ouvrir{
+      display: none;
+    }
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-around;
+    transform: translateX(-100%);
+    transition: transform 1s;
+}
+.open .menu {
+  transform: translateX(0);
+}
+.access{
   display: none;
 }
-
-
-   #menuport li a {
-    display:block;
-    width:100px;
-    color:white;
-    text-decoration:none;
-    padding:5px;
-    }
-   #menuport li a:hover {
-    color:#FFD700;
-    }
-    #menuport ul li ul {
-        display:none;
-        }
-    #menuport ul li:hover ul {
-        display:block;
-    }
-    #menuport li:hover ul li {
-        float:none;
-    }
-    #menuport li ul {
-        position:absolute;
-        }
- 
-.AtelierMenu{
-  margin-top: 0.9em;
+.logo img{
+  margin-left:0%;
 }
-.LogoPort{
-    margin-left: 38px;
-    max-width: 50%;
-    margin-top: 17px;
+.logo{
+  width: 80%;
 }
-
-@media screen and (max-width: 1000px) 
-{ 
-  header{
-    height: 10vh;
-  }
-  .droite{
-      display: none;
-  }
-  .gaucheP{
-      display: none;
-  }
-  .logo{
-      margin-left: 1.5em;
-      width: 50%;
-      margin-top: 1.5em;
-  }
-  .logo{
-    display: none;
-  }
-  .menu{
-      display: none;
-      margin-left: 1.5em;
-      margin-top: 0.5em;
-      width: 38px;
-      height: 22px;
-      margin-top: 2.5em;
-  }
-  .boost{
-    display: block;
-    background-color: none;
-    position: fixed;
-    padding: 0%;
-    z-index: 11;
-  }
-
-  .button{
-    color: red;
-  }
-  .navbar-light .navbar-toggler {
-    border:none;
-    box-shadow: none;
-    padding-top: 30px;
-    padding-left: 20px;
-
-}
-.navbar-nav{
-  flex-direction: row;
-  background-color: white;
-}
-.menuPo{
-  padding-top: 24px;
-  padding-left: 23px;
-  transform: translateY(-41px);
-}
-
-.Pad{
-  padding: 0%;
-  max-width: 100%;
-}
-.colorT{
-    color: white;
-}
-
 }
