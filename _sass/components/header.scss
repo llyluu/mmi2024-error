@@ -166,7 +166,7 @@ display: none;
      }
 }
 
-.menu li{
+.menu .espacement{
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -183,4 +183,17 @@ display: none;
 .logo{
   width: 80%;
 }
+}
+
+@media all and (max-width: 1024px){
+
+
+    .logo{
+      width: 65%;
+      img{
+        margin-left: 83px;
+      }
+    }
+
+
 }
